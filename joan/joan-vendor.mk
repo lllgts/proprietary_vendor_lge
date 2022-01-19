@@ -84,6 +84,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan/proprietary/vendor/firmware/a530v3_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_seq.fw2 \
     vendor/lge/joan/proprietary/vendor/firmware/a540_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a540_gpmu.fw2 \
     vendor/lge/joan/proprietary/vendor/firmware/a540_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a540_zap.b00 \
+    vendor/lge/joan/proprietary/vendor/firmware/a540_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a540_zap.b01 \
+    vendor/lge/joan/proprietary/vendor/firmware/a540_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a540_zap.elf \
+    vendor/lge/joan/proprietary/vendor/firmware/a540_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a540_zap.mdt \
     vendor/lge/joan/proprietary/vendor/firmware/a540_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a540_zap.b02 \
     vendor/lge/joan/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
     vendor/lge/joan/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
@@ -1391,14 +1394,5 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-service-qti \
     manifest_android.hardware.drm@1.3-service.widevine \
     vendor.qti.gnss@4.0-service
-PRODUCT_COPY_FILES += \
-    vendor/lge/joan/proprietary/vendor/firmware/H930/a540_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/H930/a540_zap.b01 \
-    vendor/lge/joan/proprietary/vendor/firmware/H930/a540_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/H930/a540_zap.elf \
-    vendor/lge/joan/proprietary/vendor/firmware/H930/a540_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/H930/a540_zap.mdt
-PRODUCT_COPY_FILES += \
-    vendor/lge/joan/proprietary/vendor/firmware/H932/a540_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/H932/a540_zap.b01 \
-    vendor/lge/joan/proprietary/vendor/firmware/H932/a540_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/H932/a540_zap.elf \
-    vendor/lge/joan/proprietary/vendor/firmware/H932/a540_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/H932/a540_zap.mdt
-
 
 #    vendor/lge/joan/proprietary/system_ext/framework/qti-telephony-common.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/qti-telephony-common.jar \
