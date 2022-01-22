@@ -20,6 +20,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan/proprietary/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/lge/joan/proprietary/lib/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/lib/fm_helium.so \
     vendor/lge/joan/proprietary/lib/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfm-hci.so \
+    vendor/lge/joan/proprietary/lib/libstdc++.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstdc++.so \
+    vendor/lge/joan/proprietary/lib64/libstdc++.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstdc++.so \
     vendor/lge/joan/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.voiceprint@1.0.so \
     vendor/lge/joan/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/lge/joan/proprietary/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so \
@@ -27,6 +29,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan/proprietary/product/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptXHD_encoder.so \
     vendor/lge/joan/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
     vendor/lge/joan/proprietary/lib64/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfm-hci.so \
+    vendor/lge/joan/proprietary/vendor/lib64/libstdc++.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstdc++.so \
+    vendor/lge/joan/proprietary/vendor/lib/libstdc++.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstdc++.so \
     vendor/lge/joan/proprietary/vendor/lib64/vendor.lge.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.biometrics.fingerprint@2.1.so \
     vendor/lge/joan/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so \
     vendor/lge/joan/proprietary/vendor/bin/btnvtool:$(TARGET_COPY_OUT_VENDOR)/bin/btnvtool \
