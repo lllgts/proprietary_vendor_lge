@@ -17,6 +17,22 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan/proprietary/vendor/etc/firmware/rampatch_tlv_3.0.tlv:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/lge/joan/proprietary/vendor/etc/firmware/rampatch_tlv_3.2.tlv:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/lge/joan/proprietary/vendor/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.ant@1.0.so \
+    vendor/lge/joan/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service-qti \
+    vendor/lge/joan/proprietary/vendor/lib/android.hardware.keymaster@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.keymaster@3.0.so \
+    vendor/lge/joan/proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.keymaster@3.0-impl-qti.so \
+    vendor/lge/joan/proprietary/vendor/lib/libkeymaster_messages.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster_messages.so \
+    vendor/lge/joan/proprietary/vendor/lib/libkeymaster_portable.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster_portable.so \
+    vendor/lge/joan/proprietary/vendor/lib/libleymaster_portable.so:$(TARGET_COPY_OUT_VENDOR)/lib/libleymaster_portable.so \
+    vendor/lge/joan/proprietary/vendor/lib/libpuresoftkeymasterdevice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpuresoftkeymasterdevice.so \
+    vendor/lge/joan/proprietary/vendor/lib/libsoftkeymasterdevice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsoftkeymasterdevice.so \
+    vendor/lge/joan/proprietary/vendor/lib64/android.hardware.keymaster@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.keymaster@3.0.so \
+    vendor/lge/joan/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so \
+    vendor/lge/joan/proprietary/vendor/lib64/libkeymaster_messages.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_messages.so \
+    vendor/lge/joan/proprietary/vendor/lib64/libkeymaster_portable.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_portable.so \
+    vendor/lge/joan/proprietary/vendor/lib64/libleymaster_messages.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libleymaster_messages.so \
+    vendor/lge/joan/proprietary/vendor/lib64/libleymaster_portable.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libleymaster_portable.so \
+    vendor/lge/joan/proprietary/vendor/lib64/libpuresoftkeymasterdevice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpuresoftkeymasterdevice.so \
+    vendor/lge/joan/proprietary/vendor/lib64/libsoftkeymasterdevice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoftkeymasterdevice.so \
     vendor/lge/joan/proprietary/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/lge/joan/proprietary/lib/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/lib/fm_helium.so \
     vendor/lge/joan/proprietary/lib/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfm-hci.so \
